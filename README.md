@@ -26,3 +26,5 @@ Error: Permisson denied *(ERROR: pijuice[PiJuice] : update() unhandled exception
 `vi /etc/udev/rules.d/99-com.rules` If this line exists: SUBSYSTEM=="ic2-dev", GROUP="i2c", MODE="0660"
 
 
+## Sample
+![PiJuice-netdata sample](https://github.com/r-sherwood/PiJuice-netdata/blob/main/pijuice-netdata_sample.png)
