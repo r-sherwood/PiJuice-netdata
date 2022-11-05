@@ -13,6 +13,9 @@ Open-source, free, preconfigured, opinionated, and always real-time.
 4. Copy collector config file. `cp pijuice.conf /etc/netdata/python.d/.`
 5. Append `pijuice: yes` to `/etc/netdata/python.d.conf`
 
+## Sample
+![PiJuice-netdata sample](https://github.com/r-sherwood/PiJuice-netdata/blob/main/pijuice-netdata_sample.png)
+
 ## Debug
 1. Login as netdata user `sudo su -s /bin/bash netdata`
 2. Re/start netdata `systemctl restart netdata`
@@ -26,5 +29,3 @@ Error: Permisson denied *(ERROR: pijuice[PiJuice] : update() unhandled exception
 `vi /etc/udev/rules.d/99-com.rules` If this line exists: SUBSYSTEM=="ic2-dev", GROUP="i2c", MODE="0660"
 
 
-## Sample
-![PiJuice-netdata sample](https://github.com/r-sherwood/PiJuice-netdata/blob/main/pijuice-netdata_sample.png)
