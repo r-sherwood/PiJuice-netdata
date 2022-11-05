@@ -1,5 +1,5 @@
 # PiJuice netdata collector
-Monitor PiJuice HAT battery and power input informations through netdata.
+Monitor PiJuice HAT battery and power input informations through netdata. Netdata visualizes: battery charge level, battery voltage, battery current, battery temperature, power voltage, power current.
 
 [PiJuice HAT](https://github.com/PiSupply/PiJuice) is a fully uninterruptable / uninterupted power supply that will always keep your Raspberry Pi powered!
 
