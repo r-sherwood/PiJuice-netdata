@@ -8,7 +8,7 @@ Open-source, free, preconfigured, opinionated, and always real-time.
 
 ## Installation
 1. Clone or download this repo into a folder on your Pi
-2. Change directory `cd Pijuice-netdata`
+2. Change directory `cd PiJuice-netdata`
 3. Copy collector file to netdata plugins.d destination. `cp pijuice.chart.py /usr/libexec/netdata/python.d/`
 4. Copy collector config file. `cp pijuice.conf /etc/netdata/python.d/.`
 5. Append `pijuice: yes` to `/etc/netdata/python.d.conf`
